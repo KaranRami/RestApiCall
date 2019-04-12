@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "ApiUtils.Android.dll" comes first in this list. */
 		"ApiUtils.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"ApiUtils.dll",
 		"FormsViewGroup.dll",
 		"ModernHttpClient.dll",

@@ -1,7 +1,6 @@
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\bin\Debug\netstandard2.0\ApiUtils.deps.json
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\bin\Debug\netstandard2.0\ApiUtils.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\bin\Debug\netstandard2.0\ApiUtils.pdb
-F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\obj\Debug\netstandard2.0\ApiUtils.csprojAssemblyReference.cache
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\obj\Debug\netstandard2.0\App.xaml.g.cs
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils\obj\Debug\netstandard2.0\ApiUtils.csproj.CoreCompileInputs.cache

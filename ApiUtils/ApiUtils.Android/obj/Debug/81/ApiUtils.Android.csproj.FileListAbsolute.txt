@@ -25,6 +25,7 @@ F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\System.Runti
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\System.ServiceModel.Internals.pdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\System.Web.Services.pdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\Mono.Security.pdb
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\Acr.UserDialogs.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\ApiUtils.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\Xamarin.Essentials.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\bin\Debug\ApiUtils.dll
@@ -58,11 +59,14 @@ F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\res\mipma
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\res\drawable\splashscreen.xml
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\R.cs.flag
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\R.txt
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\uploadflags.txt
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\resolvedassemblies.hash
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\ApiUtils.Android.dll
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\Acr.UserDialogs.dll
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\AndHUD.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\ApiUtils.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\FormsViewGroup.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\Java.Interop.dll
@@ -138,9 +142,13 @@ F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\S
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\Acr.UserDialogs.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\ApiUtils.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\link.flag
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\Acr.UserDialogs.dll
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\Acr.UserDialogs.dll.mdb
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\AndHUD.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\ApiUtils.Android.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\ApiUtils.Android.pdb
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\ApiUtils.dll

@@ -1,4 +1,6 @@
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\ApiUtils.Android.dll
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\Acr.UserDialogs.dll
+F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\AndHUD.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\ApiUtils.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 F:\Xamarin\Projects\RestApiCall\ApiUtils\ApiUtils.Android\obj\Debug\81\android\assets\Java.Interop.dll

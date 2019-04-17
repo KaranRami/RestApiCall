@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ApiUtils.View.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="1">
+                <Entry
+                    Keyboard="Email"
+                    MaxLength="30"
+                    Placeholder="Username"
+                    ReturnCommand="{Binding ReturnCommand}"
+                    ReturnCommandParameter="txtPassword"
+                    ReturnType="Next"
+                    Text="{Binding Username}" />
+                <Entry
+                    x:Name="txtPassword"
+                    IsPassword="True"
+                    Placeholder="Password"
+                    ReturnCommand="{Binding LoginCommand}"
+                    ReturnType="Go"
+                    Text="{Binding Password}" />
+                <Button
+                    Command="{Binding LoginCommand}"
+                    Style="{StaticResource PrimaryButton}"
+                    Text="Login" />
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

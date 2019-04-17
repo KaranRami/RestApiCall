@@ -25,14 +25,13 @@ namespace ApiUtils.Droid
         protected override void OnResume()
         {
             base.OnResume();
-            Task startupWork = new Task(() => { SimulateStartup(); });
-            startupWork.Start();
+            Task.Run(async () => { await SimulateStartup(); });
         }
 
         // Simulates background work that happens behind the splash screen
-        async void SimulateStartup()
+        async Task SimulateStartup()
         {
-            //await Task.Delay(5000);// Simulate a bit of startup work.
+            await Task.Delay(100);// Simulate a bit of startup work.
             StartActivity(typeof(MainActivity));
         }
     }

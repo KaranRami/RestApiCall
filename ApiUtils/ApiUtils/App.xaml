@@ -1,8 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ApiUtils.App">
+<Application
+    x:Class="ApiUtils.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <Application.Resources>
-
+        <!--#region  Colors-->
+        <Color x:Key="PageColor">#FFFFFF</Color>
+        <Color x:Key="ButtonColor">#2196F3</Color>
+        <Color x:Key="ButtonTextColor">#FFFFFF</Color>
+        <Color x:Key="EntryColor">#FFFFFF</Color>
+        <!--#endregion-->
+        <!--#region  Titles-->
+        <x:String x:Key="InternetProblem">There is problem with the internet connection, Please check and try again.</x:String>
+        <x:String x:Key="ServerProblem">There is problem with the server, Please try again after some time.</x:String>
+        <!--#endregion-->
+        <!--#region Regex Patterns-->
+        <!--<x:String x:Key="EmailPattern">\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z</x:String>
+        <x:String x:Key="PasswordPattern">^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}</x:String>-->
+        <!--#endregion-->
+        <!--#region  Styles-->
+        <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="{StaticResource PageColor}" />
+            <Setter Property="Padding" Value="20" />
+            <Setter Property="Visual" Value="Material" />
+        </Style>
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource ButtonColor}" />
+            <Setter Property="TextColor" Value="{StaticResource ButtonTextColor}" />
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="{StaticResource EntryColor}" />
+        </Style>
+        <!--#endregion-->
     </Application.Resources>
 </Application>

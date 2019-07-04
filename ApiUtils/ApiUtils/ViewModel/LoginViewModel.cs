@@ -62,8 +62,7 @@ namespace ApiUtils.ViewModel
             {
                 if (!ValidateAction())
                     return;
-                UserDialogs.Instance.ShowLoading();
-
+                IsBusy = true;
                 using (cts = new CancellationTokenSource())
                 {
                     LoginRequestModel loginRequestModel = new LoginRequestModel()
@@ -72,7 +71,7 @@ namespace ApiUtils.ViewModel
                         password = Password,
                     };
                     var response = await UserManager.Instance.Login(loginRequestModel, cts.Token);
-                    UserDialogs.Instance.HideLoading();
+                    IsBusy = false;
                     if (response.ServiceReaponseHeader.ErrorException != null)
                     {
                         if (response.ServiceReaponseHeader.ErrorException is TaskCanceledException)

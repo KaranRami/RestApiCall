@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Net;
 using System.Net.Http;
 using System.Net.NetworkInformation;
@@ -69,7 +70,7 @@ namespace ApiUtils.DataAccess
                         Client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", serviceRequest.AuthToken);
                     }
                     HttpResponseMessage response = null;
-                    Console.WriteLine("Api Call Started: " + serviceRequest.RequestUrl + " " + DateTime.Now.TimeOfDay);
+                    Debug.WriteLine("Api Call Started: " + serviceRequest.RequestUrl + " " + DateTime.Now.TimeOfDay);
                     switch (serviceRequest.RequestMethod)
                     {
                         case RequestMethodTypes.Get:
@@ -85,7 +86,7 @@ namespace ApiUtils.DataAccess
                             response = await Client.DeleteAsync(serviceRequest.RequestUrl, cancellationToken);
                             break;
                     }
-                    Console.WriteLine("Api Call Ended: " + serviceRequest.RequestUrl + " " + DateTime.Now.TimeOfDay);
+                    Debug.WriteLine("Api Call Ended: " + serviceRequest.RequestUrl + " " + DateTime.Now.TimeOfDay);
                     serviceReaponseHeader.StatusCode = response.StatusCode;
                     serviceReaponseHeader.Response = await response.Content.ReadAsStringAsync();
                 }
